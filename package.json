@@ -3,9 +3,8 @@
   "version": "1.2.0",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node dist/src/index.js",
+    "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "tsc",
     "lint": "eslint --fix src test",
     "test": "jest"
   },
