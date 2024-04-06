@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "kda",
   "license": "MIT",
+  "type": "commonjs",
   "dependencies": {
     "@stripe/stripe-js": "^3.0.7",
     "axios": "^1.4.0",
